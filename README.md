@@ -1,5 +1,5 @@
 # pysqlcrypto
-Allows you to use [sqlcrypto](https://github.com/PizzaCrust/sqlcrypto) crate in python, as a replacement for [pysqlsimplecipher](https://github.com/bssthu/pysqlsimplecipher), to accelerate encryption or decryption in order of magnitudes, decryption is ~7500x faster.
+Allows you to use [sqlcrypto](https://github.com/PizzaCrust/sqlcrypto) crate in python, as a replacement for [pysqlsimplecipher](https://github.com/bssthu/pysqlsimplecipher), to accelerate encryption or decryption by order of magnitudes, decryption is ~7500x faster.
 
 ## Install
 1. `maturin build`
